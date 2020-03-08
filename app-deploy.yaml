@@ -12,20 +12,20 @@ metadata:
     commit.stack.appsody.dev/contextDir: /experimental
     commit.stack.appsody.dev/date: Mon Feb 17 10:17:41 2020 +0000
     commit.stack.appsody.dev/message: 'Merge pull request #273 from kabanero-io/individual_indexes'
-    image.opencontainers.org/created: "2020-03-01T12:49:46+04:00"
+    image.opencontainers.org/created: "2020-03-08T12:52:42+04:00"
     image.opencontainers.org/documentation: https://github.com/kabanero-io/collections
     image.opencontainers.org/revision: c698c91d849a9d9a3751add89724cd943719855b-modified
     image.opencontainers.org/source: https://github.com/kabanero-io/collections/tree/master
     image.opencontainers.org/url: https://github.com/kabanero-io/collections
     stack.appsody.dev/authors: Saif ur Rehman <saif.ur.rehman@.ibm.com>
-    stack.appsody.dev/configured: dev.local/appsody/experimental:0.1
+    stack.appsody.dev/configured: s4saif/appsody-experimental:latest
     stack.appsody.dev/created: "2020-03-01T01:22:06+04:00"
     stack.appsody.dev/description: Runnable typescript stack
     stack.appsody.dev/documentation: https://github.com/kabanero-io/collections/tree/master/experimental/README.md
     stack.appsody.dev/licenses: Apache-2.0
     stack.appsody.dev/revision: c698c91d849a9d9a3751add89724cd943719855b-modified
     stack.appsody.dev/source: https://github.com/kabanero-io/collections/tree/master/experimental/image
-    stack.appsody.dev/tag: dev.local/appsody/experimental:0.1.1
+    stack.appsody.dev/tag: s4saif/appsody-experimental:latest
     stack.appsody.dev/title: Typescript template
     stack.appsody.dev/url: https://github.com/kabanero-io/collections/tree/master/experimental
   creationTimestamp: null
@@ -36,7 +36,7 @@ metadata:
   name: auth-microservice-appsody
   namespace: cumulusbank
 spec:
-  applicationImage: docker.io/s4saif/auth-microservice-appsody:v11
+  applicationImage: dev.local/auth-microservice-appsody
   createKnativeService: false
   expose: true
   service:

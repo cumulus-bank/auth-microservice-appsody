@@ -1,0 +1,2 @@
+project-name: auth-microservice-appsody
+stack: s4saif/appsody-experimental:latest
